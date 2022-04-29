@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to top, #434343 0%, black 100%);
+  width: 100%;
+}
+
+header {
+  background-color: rgb(41, 125, 194);
+  width: 90%;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+header .logo {
+  width: 30%;
+  border-radius: 40%;
+}
+
+header nav{
+  width:70%;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+nav ul{  
+  display:flex; 
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+nav li {  
+  padding:10px;
+  list-style-type: none;
+  background-color: rgb(46, 79, 151);
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgb(23, 50, 107);
+}
+
+nav li:hover {
+  background-color: rgb(23, 50, 107);
+  box-shadow: none;
+}
+
+ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.container {
+  font-family: monospace;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.titulo {
+  background-color: rgb(84, 84, 139);
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+.article {
+  background-color: blueviolet;
+}
+
+.mantos {
+  background-color: rgb(59, 59, 95);
+}
+
+.pelajes {
+  background-color: rgb(1, 1, 20);
+}
+
+.aside {
+  background-color: rgb(13, 66, 238);
+}
+
+.imagen_final {
+  background-color: rgb(80, 6, 109);
+}
+
+img {
+  object-fit: cover;
+}
+
+
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+  padding: 15px;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.mantos h3 {
+  font-size: 40px;
+}
+
+
+
+.mantos p {
+  font-size: 16px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+
+
+.contenedor-footer{
+  background-color: rgb(146, 38, 247);
+  width: 100%;
+  padding:50px 20px;
+}
+
+.footer{
+  
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.footer li{
+  font-size:1.5em;
+  color:#fff;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px #000;
+
+}
+
+
+/*CSS para contacto*/
+
+
+
+
+.formulario-titulo{
+  text-align: center;
+  font-size: 25px;
+  color:silver;
+  font-weight: bold;
+
+}
+
+
+
+.formulario{
+
+  background:#ccc; 
+  width:60%;
+  margin:30px auto;
+  padding:20px;
+}
+label{
+  font-size:16px;
+  display:block;
+  width:100%;}
+
+input,textarea{
+  margin-bottom:40px;
+  width:90%;
+  padding:10px;
+  border:none;
+  border-radius:5px;
+ 
+}
+
+
+
+
+.submit{background:blue; color:white; border:none; margin-bottom:0;}
+.submit:hover{background:lightblue; cursor:pointer; color:blueviolet;border:2px solid blueviolet;}
+
+input:focus, textarea:focus {border:1px solid blue;outline: transparent;}
+
+textarea{resize:vertical; max-height: 300px; min-height: 100px;}
+
+
+
+
+
+/*CSS para "acerca" */
+
+.acerca{
+  background: rgb(106, 236, 106);
+  width:80%;
+  margin:3em auto;
+  padding:30px;
+  font-size: 2em;
+}
+
+#link-contacto{
+  font-size:1em;
+  font-weight:bold;
+  text-shadow: 1px 1px black;
+}
+
+#link-contacto:hover{background-color:orangered; border-radius:5px;padding:5px;}
+
+.jugando-container{
+  display:flex;
+  justify-content:center;
+  margin:30px auto;
+}
+
+.jugando{border-radius:10px;
+  width:40%;}
